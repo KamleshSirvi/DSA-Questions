@@ -10,8 +10,8 @@ int getMiddle(Node head)
          // when second pointer reach at the end of the linked list then first pointer will reach at middle of the linked list
          
          while(second != null && second.next != null){
-             start = start.next;
+             first = first.next;
              second = second.next.next;
          }
-         return start.data;
+         return first.data;
     }
