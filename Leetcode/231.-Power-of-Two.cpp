@@ -1,3 +1,5 @@
+// it is not an efficient approach
+// time complexity  = O(n)
 class Solution {
 public:
     bool isPowerOfTwo(int n) {
