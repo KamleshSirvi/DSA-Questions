@@ -36,7 +36,7 @@ class Solution
     int countWays(int n)
     {
         // your code here
-        // using Dym=namic programming 
+        // using Dynamic programming 
         
         int m = pow(10, 9) + 7;
         if(n <= 2){
